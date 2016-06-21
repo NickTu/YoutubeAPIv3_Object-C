@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SearchViewController : UIViewController
+- (IBAction)showSearchSettings:(UIBarButtonItem *)sender;
+- (IBAction)showVideoCategories:(UIBarButtonItem *)sender;
 
 @end

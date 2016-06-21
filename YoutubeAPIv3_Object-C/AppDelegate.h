@@ -10,6 +10,13 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) NSString *type;
+@property (strong, nonatomic) NSString *order;
+@property (strong, nonatomic) NSString *uploadTime;
+@property (strong, nonatomic) NSString *videoDuration;
+@property (strong, nonatomic) NSString *videoDimension;
+@property (strong, nonatomic) NSString *videoDefinition;
+@property (strong, nonatomic) NSString *videoType;
 @property (strong, nonatomic) UIWindow *window;
 
 

@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _type = @"video";
+    _order = @"relevance";
+    _uploadTime = @"anytime";
+    _videoDuration = @"any";
+    _videoDimension = @"any";
+    _videoDefinition = @"any";
+    _videoType = @"All";
     return YES;
 }
 
