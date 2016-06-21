@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayViewController">
+            <connections>
+                <outlet property="playerView" destination="39V-gg-pWB" id="ghJ-ZB-Man"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zrc-cy-702">
+                    <rect key="frame" x="0.0" y="19" width="600" height="44"/>
+                    <items>
+                        <navigationItem title="Play" id="Unt-b4-EdE">
+                            <barButtonItem key="leftBarButtonItem" title="Back" id="Xjf-fC-0Oc">
+                                <connections>
+                                    <action selector="backViewController:" destination="-1" id="UIc-zj-8zB"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="39V-gg-pWB" customClass="YTPlayerView">
+                    <rect key="frame" x="0.0" y="63" width="600" height="252"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zrc-cy-702" firstAttribute="leading" secondItem="39V-gg-pWB" secondAttribute="leading" id="1Vx-Ut-4sw"/>
+                <constraint firstAttribute="bottom" secondItem="39V-gg-pWB" secondAttribute="bottom" constant="285" id="Iwj-d8-3UK"/>
+                <constraint firstAttribute="trailing" secondItem="zrc-cy-702" secondAttribute="trailing" id="Xfs-h2-qOA"/>
+                <constraint firstItem="zrc-cy-702" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lfx-6J-REV"/>
+                <constraint firstItem="zrc-cy-702" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="19" id="nwo-go-HYG"/>
+                <constraint firstItem="39V-gg-pWB" firstAttribute="top" secondItem="zrc-cy-702" secondAttribute="bottom" id="tSP-Ge-Px7"/>
+                <constraint firstItem="zrc-cy-702" firstAttribute="trailing" secondItem="39V-gg-pWB" secondAttribute="trailing" id="xJa-v7-Hf4"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
