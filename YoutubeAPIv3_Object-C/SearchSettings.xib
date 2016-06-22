@@ -17,7 +17,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClP-1c-Xfm">
-                    <rect key="frame" x="0.0" y="18" width="600" height="44"/>
+                    <rect key="frame" x="0.0" y="20" width="600" height="44"/>
                     <items>
                         <navigationItem title="Title" id="cuZ-On-5bo">
                             <barButtonItem key="leftBarButtonItem" title="Done" id="9Zg-yI-gj6">
@@ -29,7 +29,7 @@
                     </items>
                 </navigationBar>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="OyQ-Vu-7FA">
-                    <rect key="frame" x="0.0" y="62" width="600" height="538"/>
+                    <rect key="frame" x="0.0" y="64" width="600" height="536"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                 </tableView>
             </subviews>
@@ -41,7 +41,7 @@
                 <constraint firstAttribute="trailing" secondItem="ClP-1c-Xfm" secondAttribute="trailing" id="NT0-W8-LpX"/>
                 <constraint firstItem="ClP-1c-Xfm" firstAttribute="leading" secondItem="OyQ-Vu-7FA" secondAttribute="leading" id="QqS-2M-Fxp"/>
                 <constraint firstItem="ClP-1c-Xfm" firstAttribute="trailing" secondItem="OyQ-Vu-7FA" secondAttribute="trailing" id="Vqe-wX-ZIV"/>
-                <constraint firstItem="ClP-1c-Xfm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="18" id="ffP-Aj-kRw"/>
+                <constraint firstItem="ClP-1c-Xfm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="ffP-Aj-kRw"/>
             </constraints>
             <point key="canvasLocation" x="266" y="459"/>
         </view>

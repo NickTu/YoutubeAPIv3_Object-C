@@ -23,6 +23,8 @@
 		AB0346101D19A04000F50CE4 /* SearchSettings.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB03460E1D19A04000F50CE4 /* SearchSettings.xib */; };
 		AB0346141D19A05800F50CE4 /* VideoCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0346121D19A05800F50CE4 /* VideoCategories.m */; };
 		AB0346151D19A05800F50CE4 /* VideoCategories.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0346131D19A05800F50CE4 /* VideoCategories.xib */; };
+		AB0346191D1ACCAF00F50CE4 /* PlaylistItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0346171D1ACCAF00F50CE4 /* PlaylistItemViewController.m */; };
+		AB03461A1D1ACCAF00F50CE4 /* PlaylistItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0346181D1ACCAF00F50CE4 /* PlaylistItemViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,9 @@
 		AB0346111D19A05800F50CE4 /* VideoCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCategories.h; sourceTree = "<group>"; };
 		AB0346121D19A05800F50CE4 /* VideoCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCategories.m; sourceTree = "<group>"; };
 		AB0346131D19A05800F50CE4 /* VideoCategories.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCategories.xib; sourceTree = "<group>"; };
+		AB0346161D1ACCAF00F50CE4 /* PlaylistItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistItemViewController.h; sourceTree = "<group>"; };
+		AB0346171D1ACCAF00F50CE4 /* PlaylistItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistItemViewController.m; sourceTree = "<group>"; };
+		AB0346181D1ACCAF00F50CE4 /* PlaylistItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaylistItemViewController.xib; sourceTree = "<group>"; };
 		E830D42ED10B7A4883E2FCE4 /* Pods-YoutubeAPIv3_Object-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeAPIv3_Object-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeAPIv3_Object-C/Pods-YoutubeAPIv3_Object-C.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +120,9 @@
 				AB0346111D19A05800F50CE4 /* VideoCategories.h */,
 				AB0346121D19A05800F50CE4 /* VideoCategories.m */,
 				AB0346131D19A05800F50CE4 /* VideoCategories.xib */,
+				AB0346161D1ACCAF00F50CE4 /* PlaylistItemViewController.h */,
+				AB0346171D1ACCAF00F50CE4 /* PlaylistItemViewController.m */,
+				AB0346181D1ACCAF00F50CE4 /* PlaylistItemViewController.xib */,
 				AB0345EE1D19869900F50CE4 /* Main.storyboard */,
 				AB0345F11D19869900F50CE4 /* Assets.xcassets */,
 				AB0345F31D19869900F50CE4 /* LaunchScreen.storyboard */,
@@ -207,6 +215,7 @@
 				AB0346101D19A04000F50CE4 /* SearchSettings.xib in Resources */,
 				AB0346151D19A05800F50CE4 /* VideoCategories.xib in Resources */,
 				AB03460B1D19987600F50CE4 /* PlayViewController.xib in Resources */,
+				AB03461A1D1ACCAF00F50CE4 /* PlaylistItemViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0346051D19984100F50CE4 /* VideoCollectionCell.m in Sources */,
+				AB0346191D1ACCAF00F50CE4 /* PlaylistItemViewController.m in Sources */,
 				AB0346141D19A05800F50CE4 /* VideoCategories.m in Sources */,
 				AB0345E71D19869900F50CE4 /* AppDelegate.m in Sources */,
 				AB0345E41D19869900F50CE4 /* main.m in Sources */,
