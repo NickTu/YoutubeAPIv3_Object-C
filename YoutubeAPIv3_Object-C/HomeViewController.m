@@ -114,7 +114,7 @@
                 
                 [self endSearch];
             } @catch (NSException *exception){
-                NSLog(@"Error = %@",error);
+                NSLog(@"Exception = %@",exception);
             }
             
         }else {

@@ -96,6 +96,9 @@
                                     <constraint firstAttribute="width" constant="55" id="jDm-Y9-4No"/>
                                 </constraints>
                                 <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelSearch:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="ebP-k4-osP"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="eF0-lg-qJw">
                                 <rect key="frame" x="0.0" y="108" width="600" height="443"/>
@@ -127,6 +130,14 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="search" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="cancelSearchButton" destination="p0c-D3-dmF" id="Hvh-Hc-3py"/>
+                        <outlet property="collectionView" destination="eF0-lg-qJw" id="2Xg-LK-THW"/>
+                        <outlet property="collectionViewTop" destination="DcN-0j-DhC" id="JQl-6W-LoR"/>
+                        <outlet property="navigationBar" destination="d34-f4-3gu" id="DGe-Pf-rZM"/>
+                        <outlet property="searchBar" destination="Oiq-y6-MGP" id="e0J-9r-7NL"/>
+                        <outlet property="searchViewConstraint" destination="k0p-xZ-cg9" id="QNH-S4-yvZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
